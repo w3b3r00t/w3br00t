@@ -1,4 +1,4 @@
-/* Basic Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -41,7 +41,7 @@ main {
 }
 
 .bio {
-  text-align: center; /* Add this line to center the title */
+  text-align: center; 
 }
 
 h1,
@@ -73,7 +73,7 @@ footer {
   padding: 20px;
 }
 
-/* Add this new class for centering the title */
+
 .title-centered {
   text-align: center;
 }
@@ -84,7 +84,7 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1; /* This makes sure the particles are rendered behind the content */
+  z-index: -1; 
 }
 
 .bio,
