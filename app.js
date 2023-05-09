@@ -66,10 +66,10 @@ function animate() {
     requestAnimationFrame(animate);
 
     // Update particle system
-   particleSystem.rotation.y += 0.005; // Decrease rotation speed
+   particleSystem.rotation.y += 0.005; 
 
     for (let i = 0; i < particleSystem.geometry.attributes.position.array.length; i += 3) {
-        particleSystem.geometry.attributes.position.array[i + 1] -= 0.2; // Increase downward speed
+        particleSystem.geometry.attributes.position.array[i + 1] -= 0.2; 
         if (particleSystem.geometry.attributes.position.array[i + 1] < -50) {
             particleSystem.geometry.attributes.position.array[i + 1] = 50;
         }
